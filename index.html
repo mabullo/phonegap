@@ -49,8 +49,11 @@
             <p class="event listening">Connecting to Device</p>
             <p class="event received">Device is Ready</p>
         </div>
+        <div style="margin-bottom:30px;">
+          <a href="javascript:cordova.InAppBrowser.open('http://www.consorziocics.it', '_blank', 'location=yes');">Link</a>
+        </div>
         <div>
-          <a href="javascript:window.open('https://www.consorziocics.it', '_self ', 'location=yes');">Link</a>
+          <input type="button" onclick="navigator.vibrate(3000);" value="vibra">
         </div>
     </div>
     <script type="text/javascript" src="cordova.js"></script>
